@@ -36,6 +36,7 @@ Gem::Specification.new do |s|
   else
     '>= 2.0.0'
   end
+  s.add_development_dependency('protected_attributes')
   s.add_development_dependency('activerecord', activerecord_version)
   s.add_development_dependency('actionpack', activerecord_version)
   s.add_development_dependency('datamapper')
